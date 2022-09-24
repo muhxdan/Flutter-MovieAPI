@@ -160,6 +160,7 @@ class DetailMovie extends StatelessWidget {
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: List.generate(
                           movie.nameCast.length,
                           (index) {
